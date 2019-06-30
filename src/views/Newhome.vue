@@ -1,6 +1,6 @@
 <template>
    <div class="newhome" >
-     <div class="newtop1" @click="GoTaiwan">
+     <div class="newtop1" @click="GoGuo">
         <img class="titleicon" src="..\resourse\images\jqmd\logo.png" height="40%" width="40%">
 
        <!-- <a class="titleName">
@@ -46,21 +46,21 @@
 
         </div>
         <div class="chooselist">
-          <div class="nav">
+          <div class="newnav">
             <div class="imglist">  
-                <img src="..\resourse\images\wen_h.svg" width="10%" @click="actionSheet1">  
+                <img src="..\resourse\images\wen_h3.svg" width="20%" @click="actionSheet1">  
             </div>
            
           </div>
-          <div class="nav">
+          <div class="newnav">
             <div class="imglist">  
-                <img src="..\resourse\images\shang_h.svg" width="10%" @click="actionSheet2">  
+                <img src="..\resourse\images\shang_h2.svg" width="20%" @click="actionSheet2">  
             </div>
  
           </div>
-          <div class="nav">
+          <div class="newnav">
             <div class="imglist">
-                <img src="..\resourse\images\she_h.svg" width="10%" @click="actionSheet3">  
+                <img src="..\resourse\images\she_h4.svg" width="20%" @click="actionSheet3">  
             </div>
 
           </div>
@@ -109,7 +109,7 @@
         </mt-popup>
       </div>
       <div>
-        <mt-popup class="sharePopup" v-model="VideopopupVisible" :state="VideopopupVisible">
+        <mt-popup class="sharePopup" v-model="VideopopupVisible" >
           <div class="video-player vjs-custom-skin">
              <video-player
                 ref="videoPlayer" 
@@ -124,7 +124,7 @@
  </template>
 
  <script>
- import { introduction } from '../resourse/config.js'
+ import { introduction, Goods  } from '../resourse/config.js'
  import aplayer from "vue-aplayer";
  import { videoPlayer } from 'vue-video-player'
   import '../../node_modules/video.js/dist/video-js.css'
@@ -167,6 +167,8 @@
       // events: ['change'],
 
       introductionMsg: introduction.jqmd,
+      tao_url: Goods.tao_jqmd,
+      jing_url: Goods.jing_jqmd,
       isPlaying: false,
       
       // 视频播放
@@ -200,7 +202,7 @@
   watch: {//监听视频窗口，不存在，将视频路径设为空
       VideopopupVisible(){
         if(this.VideopopupVisible)
-         this.playerOptions.sources[0].src = 'http://cdlshow.xyz/resource/mao.mp4'
+         this.playerOptions.sources[0].src = 'http://cdlshow.xyz/resource/jqmd.mp4'
         else
          this.playerOptions.sources[0].src = ''
       }
@@ -226,8 +228,8 @@
       this.$router.push('/video')
     },
 
-    GoTaiwan(){
-      this.$router.push('/home')
+    GoGuo(){
+      this.$router.push('/oldhome')
     },
 
     GoUser(){
@@ -235,7 +237,7 @@
     },
         
     GoItemize(){
-      this.$router.push('/itemize')
+      this.$router.push('/itemize/1')
     },
         
     GoCollection(){
@@ -244,11 +246,11 @@
     
 
     GoTaobao () {
-      window.location.href = 'https://detail.tmall.com/item.htm?id=41971811710&ali_trackid=2:mm_99396806_46570087_81282000356:1561277829_175_2086987417&spm=a231o.7712113/g.1004.1&pvid=200_11.27.53.96_242623_1561277822248'
+      window.location.href = this.tao_url
     },
 
     Gojingdong(){
-      window.location.href = 'https://item.jd.com/10502673900.html'
+      window.location.href =  this.jing_url
     },
 
     isPlayAudio(){

@@ -5,6 +5,7 @@ import Collection from './views/Collection.vue'
 import Itemize from './views/Itemize.vue'
 import User from './views/User.vue'
 import Newhome from './views/Newhome.vue'
+import Oldhome from './views/Oldhome.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -20,6 +21,11 @@ export default new Router({
       component: Home
     },
     {
+      path: '/oldhome',
+      name: 'Oldhome',
+      component: Oldhome
+    },
+    {
       path: '/User',
       name: 'user',
       // route level code-splitting
@@ -33,7 +39,7 @@ export default new Router({
       component: Collection
     },
     {
-      path: '/itemize',
+      path: '/itemize/:id',
       name: 'itemize',
       component: Itemize
     },

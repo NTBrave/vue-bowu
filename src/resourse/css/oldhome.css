@@ -1,0 +1,199 @@
+  .oldhome{
+    font-family: 微软雅黑;
+    /* background-color: #5b2528; */
+    color: #333;
+    width: 100%;
+    height: 100%;
+  }
+
+  .oldtop1{
+      /* border: 1px dashed yellow; */
+      text-align: center;
+      width: 100%;
+      height: 8%;
+      padding-bottom:2%;
+      background-image: url('../images/syfz/Old_bg.png');
+    }
+    
+    .top{
+        text-align: center;
+        /* border: 1px dashed yellow; */
+        display: flex;
+        width: 100%;
+        /* height: 10%; */
+        width:100%;
+        /* padding-bottom:5%; */
+    }
+    .titleicon{
+      padding-top: 2%;
+      vertical-align: middle;
+    }
+    .titleName{
+      font-size: 4vw;
+      display: inline-block;
+      vertical-align: middle;
+      padding-left:2%;
+      font-weight: bold;
+    }
+    
+    .relicName{
+      font-size: 4vw;
+      /* font-weight: bold; */
+      width: 100%;
+      /* height: 10%; */
+      /* padding-right: 5%; */
+      /* border: 1px dashed green; */
+      /* float: left; */
+    }
+    
+    .namesite{
+      float: left;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 20%;
+      font-family: Arial;
+      font-weight: bold;
+    }
+    .userinfo{
+      /* border: 1px dashed red; */
+      /* float: left; */
+      width: 10%;
+      height: 10%;
+    }
+    
+    .usericon{
+      /* float: right; */
+      padding-right: 10%;
+    }
+    
+    .bingpai{
+      width:100%;
+      display: flex;
+    }
+     #left{
+      width: 10%;
+      float: left;
+    } 
+    
+    #right{
+      width: 90%;
+      float: left;
+      padding-left: 5%;
+    } 
+    
+    .oldlunbo{
+      width: 100%;
+      height: 360px;
+      margin: auto;
+      /* padding-left: 30px;
+      width: 80%;
+      background-repeat: 
+      no-repeat;
+      background-size: cover;
+      background-position: center 
+      0;
+      background-position: 50% 50%;
+      -webkit-background-size: 
+      100%;
+      padding-top: 42%*/
+    } 
+    /* .ttt{
+      max-width: 100%;    
+      height: 0;    
+      padding-bottom: 75%;
+    } */
+    /* .bbb{
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      padding-bottom: 130%
+      } */
+    .showimage{
+       display: inline;
+       height: 80%;
+       padding-left: 5%;
+    }
+    
+    /* .likeit{
+     height: 80%;
+    } */
+    
+    .chooselist {
+      margin:0 auto;
+      width:100%;
+      height:12%;
+      /* border: 1px dashed red; */
+    }
+    
+    .introduc{
+      text-indent: 2em;
+    }
+    .oldnav{
+     display: inline;
+     margin:0 9%;
+      /* padding-top: 5%; */
+      /* border: 2px dashed green; */
+    }
+    
+    .imglist{
+      display: inline;
+      /* border: 1px dashed yellow; */
+    }
+  
+    .direclist{
+      margin:0 auto;
+      width:100%;
+      height:5%;
+      display: flex;
+      /* margin:0 1.5% */
+    }
+    
+    
+    .oldlistline{
+      width:7%;
+      height:100%;
+      display: flex;
+      justify-content: center;
+      /* border: 1px dashed green; */
+      align-items: center;
+      font-size: 3vw;
+      /* color: #7b7b7b; */
+      text-align:center;
+      margin: auto 0;
+    }
+    
+    .olddownblock{
+      width:100%;
+      /* position: fixed; */
+      bottom: 2%;
+      color:#E0E0E0;
+      background: url('../images/syfz/footer-bg.png') repeat-x left center #333333;
+      /* background-image: url('../images/syfz/footer-bg.png'); */
+    }
+    
+    .oldfinatitle{
+       width:100%;
+      font-size: 3vw;
+      text-align:center;
+      /* background-color: #333333;; */
+    }
+    
+    .oldfinaly{
+      width:100%;
+      font-size: 2.5vw;
+      text-align:center;
+      /* background-color: #595758; */
+      /* color: #7b7b7b; */
+    }
+  
+    .sharePopup{
+      height: 15%;
+      /* 视频窗口长度 */
+      width: 100%;
+    }
+    .video-js .vjs-icon-placeholder {
+      width: 100%;
+      height: 100%;
+      display: block;
+  }
+   

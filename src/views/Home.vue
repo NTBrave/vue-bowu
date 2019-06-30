@@ -105,14 +105,13 @@
         </mt-popup>
       </div>
       <div>
-        <mt-popup class="sharePopup" v-model="VideopopupVisible" :state="VideopopupVisible">
+        <mt-popup class="sharePopup" v-model="VideopopupVisible" >
           <div class="video-player vjs-custom-skin">
              <video-player
                 ref="videoPlayer" 
                 :playsinline="true" 
                 :options="playerOptions"
-                :video-url="videoUrl" 
-                :state="state"
+                
               ></video-player>
           </div>
         </mt-popup>
@@ -122,7 +121,7 @@
  </template>
 
  <script>
- import { introduction } from '../resourse/config.js'
+ import { introduction, Goods } from '../resourse/config.js'
  import aplayer from "vue-aplayer";
  import { videoPlayer } from 'vue-video-player'
   import '../../node_modules/video.js/dist/video-js.css'
@@ -166,6 +165,8 @@
       // events: ['change'],
 
       introductionMsg: introduction.fcbc,
+      tao_url: Goods.tao_fcbc,
+      jing_url: Goods.jing_fcbc,
       isPlaying: false,
       
       // 视频播放
@@ -234,7 +235,7 @@
     },
         
     GoItemize(){
-      this.$router.push('/itemize')
+      this.$router.push('/itemize/1')
     },
         
     GoCollection(){
@@ -243,11 +244,11 @@
     
 
     GoTaobao () {
-      window.location.href = 'https://detail.tmall.com/item.htm?id=41971811710&ali_trackid=2:mm_99396806_46570087_81282000356:1561277829_175_2086987417&spm=a231o.7712113/g.1004.1&pvid=200_11.27.53.96_242623_1561277822248'
+      window.location.href = this.tao_url
     },
 
     Gojingdong(){
-      window.location.href = 'https://item.jd.com/10502673900.html'
+      window.location.href = this.jing_url
     },
 
     isPlayAudio(){
