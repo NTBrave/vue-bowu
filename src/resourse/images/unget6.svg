@@ -1,1 +1,11 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1561688781463" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2322" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128"><defs><style type="text/css"></style></defs><path d="M752 939.2c-9.6 0-20.8-3.2-30.4-8l-208-104-209.6 104c-20.8 11.2-48 9.6-67.2-4.8-19.2-14.4-30.4-40-25.6-64l43.2-224L89.6 484.8C72 467.2 65.6 440 72 417.6c8-24 27.2-41.6 52.8-44.8l228.8-41.6 102.4-208c11.2-22.4 33.6-36.8 57.6-36.8s48 14.4 57.6 36.8l102.4 208 228.8 40c24 3.2 44.8 20.8 51.2 44.8 8 24 1.6 49.6-16 67.2L772.8 638.4l41.6 224c4.8 25.6-6.4 49.6-25.6 64-9.6 8-22.4 12.8-36.8 12.8z" p-id="2323" fill="#cdcdcd"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.1;}
+</style>
+<path class="st0" d="M94,117.4c-1.2,0-2.6-0.4-3.8-1l-26-13l-26.2,13c-2.6,1.4-6,1.2-8.4-0.6c-2.4-1.8-3.8-5-3.2-8l5.4-28L11.2,60.6
+	C9,58.4,8.2,55,9,52.2c1-3,3.4-5.2,6.6-5.6l28.6-5.2l12.8-26c1.4-2.8,4.2-4.6,7.2-4.6c3,0,6,1.8,7.2,4.6l12.8,26l28.6,5
+	c3,0.4,5.6,2.6,6.4,5.6c1,3,0.2,6.2-2,8.4L96.6,79.8l5.2,28c0.6,3.2-0.8,6.2-3.2,8C97.4,116.8,95.8,117.4,94,117.4z"/>
+</svg>

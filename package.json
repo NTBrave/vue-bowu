@@ -13,6 +13,7 @@
     "mint-ui": "^2.2.13",
     "vue": "^2.6.10",
     "vue-aplayer": "^1.6.1",
+    "vue-native-share": "^1.0.2",
     "vue-router": "^3.0.3",
     "vue-video-player": "^5.0.2"
   },

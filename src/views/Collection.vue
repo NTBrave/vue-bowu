@@ -4,7 +4,7 @@
         <mt-button size="small" @click="back">返回</mt-button>
     </div>
       <mt-index-list :showIndicator="true">
-        <mt-index-section index="馆藏文物">
+        <mt-index-section index="文物">
             <div @click="Gowenwu(1)"><mt-cell title="陶瓷"></mt-cell></div>
             <div @click="Gowenwu(2)"><mt-cell title="书画" @click="Gowenwu"></mt-cell></div>
             <div @click="Gowenwu(3)"><mt-cell title="青铜器" @click="Gowenwu"></mt-cell></div>
@@ -12,7 +12,7 @@
             <div @click="Gowenwu(5)"><mt-cell title="金木雕" @click="Gowenwu"></mt-cell></div>
             <div @click="Gowenwu(6)"><mt-cell title="端砚" @click="Gowenwu"></mt-cell></div>
         </mt-index-section>
-        <mt-index-section index="自然标本">
+        <mt-index-section index="标本">
             <mt-cell title="陆地动物标本"></mt-cell>
             <mt-cell title="中草药标本"></mt-cell>
             <mt-cell title="宝玉石标本"></mt-cell>
@@ -20,7 +20,7 @@
             <mt-cell title="古生物化石"></mt-cell>
             <mt-cell title="矿物标本"></mt-cell>
         </mt-index-section>
-        <mt-index-section index="专题鉴赏">
+        <mt-index-section index="专题">
             <mt-cell title="泰坦尼克"></mt-cell>
             <mt-cell title="贝类动物的世界"></mt-cell>
                 <mt-cell title="晋国遗珍——山西出土周代文物..."></mt-cell>

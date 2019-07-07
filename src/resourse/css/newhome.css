@@ -4,31 +4,32 @@
     color: #333;
     width: 100%;
     height: 100%;
+    
   }
 
   .newtop1{
-      /* border: 1px dashed yellow; */
-      text-align: center;
-      width: 100%;
-      height: 8%;
-      padding-bottom:2%;
-      background-image: url('../images/jqmd/top_bg.jpg');
+    /* border: 1px dashed yellow; */
+    text-align: center;
+    width: 100%;
+    height: 8%;
+    padding-bottom:2%;
+    background-image: url('../images/jqmd/top_bg.jpg');
     }
     
-    .top{
-        text-align: center;
-        /* border: 1px dashed yellow; */
-        display: flex;
-        width: 100%;
-        /* height: 10%; */
-        width:100%;
-        /* padding-bottom:5%; */
+  .top{
+    text-align: center;
+      /* border: 1px dashed yellow; */
+      display: flex;
+      width: 100%;
+      /* height: 10%; */
+      width:100%;
+      /* padding-bottom:5%; */
     }
-    .titleicon{
+  .titleicon{
       padding-top: 2%;
       vertical-align: middle;
     }
-    .titleName{
+  .titleName{
       font-size: 4vw;
       display: inline-block;
       vertical-align: middle;
@@ -36,17 +37,18 @@
       font-weight: bold;
     }
     
-    .relicName{
+  .relicNames{
       font-size: 4vw;
       /* font-weight: bold; */
-      width: 100%;
+      width: 80%;
+      /* color: rgb(255, 255, 255); */
       /* height: 10%; */
       /* padding-right: 5%; */
       /* border: 1px dashed green; */
       /* float: left; */
     }
     
-    .namesite{
+  .namesite{
       float: left;
       padding-top: 2%;
       padding-bottom: 2%;
@@ -54,34 +56,31 @@
       font-family: Arial;
       font-weight: bold;
     }
-    .userinfo{
+  .userinfo{
       /* border: 1px dashed red; */
       /* float: left; */
       width: 10%;
       height: 10%;
     }
     
-    .usericon{
-      /* float: right; */
-      padding-right: 10%;
-    }
+
     
-    .bingpai{
+  .bingpai{
       width:100%;
       display: flex;
     }
-     #left{
+  #left{
       width: 10%;
       float: left;
     } 
     
-    #right{
+  #right{
       width: 90%;
       float: left;
       padding-left: 5%;
     } 
     
-    .lunbo{
+  .lunbo{
       width: 270px;
       height: 360px;
       margin: auto;
@@ -98,8 +97,8 @@
       padding-top: 42%*/
     } 
     
-    .showimage{
-       display: inline;
+  .showimages{
+       /* display: inline; */
        height: 80%;
        padding-left: 5%;
     }
@@ -108,29 +107,31 @@
      height: 80%;
     } */
     
-    .chooselist {
+  .chooselist {
       margin:0 auto;
       width:100%;
       height:12%;
       /* border: 1px dashed red; */
     }
     
-    .introduc{
-      text-indent: 2em;
+  .introduc{
+      text-indent: 3em;
+      /* border: 1px dashed rgb(128, 0, 107); */
+      /* color: rgb(255, 255, 255); */
     }
-    .newnav{
+  .newnav{
      display: inline;
      margin:0 6.5%;
       /* padding-top: 5%; */
       /* border: 2px dashed green; */
     }
     
-    .imglist{
+  .imglist{
       display: inline;
       /* border: 1px dashed yellow; */
     }
   
-    .direclist{
+  .direclist{
       margin:0 auto;
       width:100%;
       height:5%;
@@ -139,7 +140,7 @@
     }
     
     
-    .listline{
+  .listline{
       width:7%;
       height:100%;
       display: flex;
@@ -152,7 +153,7 @@
       margin: auto 0;
     }
     
-    .newdownblock{
+  .newdownblock{
       width:100%;
       /* position: fixed; */
       bottom: 2%;
@@ -160,14 +161,14 @@
       background-color: #595758;
     }
     
-    .newfinatitle{
-       width:100%;
+  .newfinatitle{
+      width:100%;
       font-size: 3vw;
       text-align:center;
       background-color: #595758;
     }
     
-    .newfinaly{
+  .newfinaly{
       width:100%;
       font-size: 2.5vw;
       text-align:center;
@@ -180,9 +181,81 @@
       /* 视频窗口长度 */
       width: 100%;
     }
-    .video-js .vjs-icon-placeholder {
+  .sharevideoPopup{
+      height: 15%;
+      /* 视频窗口长度 */
+      width: 96%;
+    }
+
+  .video-js .vjs-icon-placeholder {
       width: 100%;
       height: 100%;
       display: block;
   }
-   
+
+  .bg-color_hui{
+    /* border: 2px dashed green; */
+    /* background-color: #38373748; */
+    border-radius: 1%;
+    margin-top: 2%
+    
+  }
+
+  .bingpai{
+    /* border: 2px dashed blue; */
+  }
+
+  .introduc{
+    margin: 3% 5% 5% 5%;
+    padding-bottom: 02%;
+  }
+
+  .User{
+    /* border: 2px dashed rgb(223, 14, 205); */
+    /* height: ; */
+    width: 20%;
+    /* margin-left: 3%; */
+    /* padding-right: 4% */
+  }
+  .Getit{
+    margin-top: 40%;
+    /* border: 2px dashed rgb(223, 14, 205); */
+  }
+  .Niceit{
+    padding-top: 20%;
+    margin-top: 40%;
+    /* border: 2px dashed rgb(223, 14, 205); */
+  }
+  .video-js .vjs-big-play-button{
+    /*
+      播放按钮换成圆形
+    */
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 1em;
+    margin: 20% 0 0 40%
+    
+  }
+  /* 下面两个样式是添加按钮 取消视频或音频 */
+  #video-win{
+    position:relative;
+    z-index:1
+  }
+  #stop-video-win{
+    position:absolute;
+    z-index:9999;
+    margin-left: 90%
+    
+  }
+  .shareme{
+    height: 33%;
+    /* 视频窗口长度 */
+    width: 100%;
+  }
+  .usericon{
+    /* float: right; */
+    padding-right: 10%;
+  }
+ 
+  

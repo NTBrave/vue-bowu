@@ -196,4 +196,70 @@
       height: 100%;
       display: block;
   }
-   
+  
+  .bg-color_hui{
+    /* border: 2px dashed green; */
+    /* background-color: #38373748; */
+    border-radius: 1%;
+    margin-top: 2%
+    
+  }
+  
+  .bingpai{
+    /* border: 2px dashed blue; */
+  }
+  
+  .introduc{
+    margin: 3% 5% 5% 5%;
+    padding-bottom: 02%;
+  }
+  
+  .User{
+    /* border: 2px dashed rgb(223, 14, 205); */
+    /* height: ; */
+    width: 20%;
+    /* margin-left: 3%; */
+    /* padding-right: 4% */
+  }
+  .Getit{
+    margin-top: 40%;
+    /* border: 2px dashed rgb(223, 14, 205); */
+  }
+  .Niceit{
+    padding-top: 20%;
+    margin-top: 40%;
+    /* border: 2px dashed rgb(223, 14, 205); */
+  }
+  .video-js .vjs-big-play-button{
+    /*
+      播放按钮换成圆形
+    */
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 1em;
+    margin: 20% 0 0 40%
+    
+  }
+  /* 下面两个样式是添加按钮 取消视频或音频 */
+  #video-win{
+    position:relative;
+    z-index:1
+  }
+  #stop-video-win{
+    position:absolute;
+    z-index:9999;
+    margin-left: 90%
+    
+  }
+  .shareme{
+    height: 33%;
+    /* 视频窗口长度 */
+    width: 100%;
+  }
+  .usericon{
+    /* float: right; */
+    padding-right: 10%;
+  }
+  
+  

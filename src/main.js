@@ -29,6 +29,10 @@ import "mint-ui/lib/tab-container-item/style.css"
 Vue.component(TabContainer.name, TabContainer);
 Vue.component(TabContainerItem.name, TabContainerItem);
 
+import { Toast } from 'mint-ui';
+import "mint-ui/lib/toast/style.css"
+Vue.component(Toast.name, Toast);
+
 Vue.component(IndexList.name, IndexList);
 Vue.component(IndexSection.name, IndexSection);
 Vue.component(Cell.name, Cell);
